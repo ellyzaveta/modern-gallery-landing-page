@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MODERN ART</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="shortcut icon" href="/images/logo-page.svg" />
+</head>
+<body>
+    <div class="full-page">
+        <section id = "hero-section">
+            <div class = "background hero-bg">
+                <div class = "background-overlay hero-overlay">
+                    <header class="header">
+                        <div class ="header-logo">
+                            <div class="main-logo-wrapper">
+                                <img src="/images/main-logo-new.svg" alt="logo">
+                                <h2>MODERN ART</h2>
+                            </div>
+                        </div>
+                        <nav id="myNav" class="nav-overlay">
+                            <a class="close-button" onclick="closeNav()">
+                                <img src="/images/close.svg" alt="close">
+                            </a>
+                            <ul class="nav-overlay-content">
+                                <li>
+                                    <a href="#hero-section" onclick="closeNav()">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#about-section" onclick="closeNav()">About</a>
+                                </li>
+                                <li>
+                                    <a href="#exhibitions-section" onclick="closeNav()">Exhibitions</a>
+                                </li>
+                                <li>
+                                    <a href="#artists-section" onclick="closeNav()">Artists</a>
+                                </li>
+                                <li>
+                                    <a href="#contacts-section" onclick="closeNav()">Contacts</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <a onclick="openNav()" href="#" class="mobile mobile-menu">
+                            <img src="/images/menu-button.svg" alt="logo">
+                        </a>
+                        <div class="search-lang">
+                            <a href="#" class="search-image">
+                                <img src="/images/search.svg" alt="logo">
+                            </a>
+                            <a href="#" class="language">ENG</a>
+                        </div>
+                    </header>
+                    <div class="hero-container">
+                        <h1>SEE THE WORLD THROUGH A CANVAS</h1>
+                        <a href="#contacts-section" class="button button-white">
+                            <span>Plan visit</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about-section">
+                <div class="about-info">
+                    <div class="logo-wrapper">
+                        <div class="logo-text">
+                            <h2>MODERN</h2>
+                            <h2>ART</h2>
+                        </div>
+                        <img src="/images/logo-about.svg" alt="logo-about-image">
+                    </div>
+                    <p>
+                        the contemporary gallery located in Kyiv
+                        that collects works of the most talented
+                        contemporary artists of the Europe.
+                    </p>
+                </div>
+                <div class="about-image"></div>
+                <div class="mobile about-image-swiper">
+                    <div class="mobile thumbnails"></div>
+                    <div class="slides">
+                        <div class="building">
+                            <img src="/images/mob-buil-1.svg" alt="artist">
+                        </div>
+                        <div class="building">
+                            <img src="/images/mob-buil2.svg" alt="artist">
+                        </div>
+                        <div class="building">
+                            <img src="/images/mob-buil-3.svg" alt="artist">
+                        </div>
+                    </div>
+                </div>
+                <div class="background about-more-bg">
+                    <div class="background-overlay about-more-overlay">
+                        <div class="about-more-content">
+                            <a href="#hero-section" class="button button-white">
+                                <span>More</span>
+                            </a>
+                            <p>
+                                Not only the outstanding quality of the collection,
+                                but also our high level of activity in research areas,
+                                exhibitions and education guarantee the MODERN ART
+                                a prominent place among international galleries.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id = "exhibitions-section">
+                <div class="heading">
+                    <h2>ON VIEW</h2>
+                    <a href="#hero-section" class="button button-black">
+                        <span>All</span>
+                    </a>
+                </div>
+                <div class="gallery">
+                    <div class="gallery-image standard">
+                        <img src="/images/g1.jpg" alt="g1" class="image">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>MIXED MEDIA</h3>
+                                <div class="line"></div>
+                                <p>Oct 5 - Nov 16, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-image standard">
+                        <img src="/images/g4.jpg" alt="g2" class="image">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>PERSPECTIVE</h3>
+                                <div class="line"></div>
+                                <p>Aug 7 - Sept 23, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-image vertical">
+                        <img src="/images/g3.jpg" alt="g3" class="image">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>IN SOLIDARITY WITH UKRAINE</h3>
+                                <div class="line"></div>
+                                <p>Sept 7 - Oct 15, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-image standard">
+                        <img src="/images/g2.jpg" alt="g4" class="image">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>ANOTHER DAY IN PARADISE</h3>
+                                <div class="line"></div>
+                                <p>Aug 23 - Sept 21, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-image horizontal">
+                        <img src="/images/g5.jpg" alt="g5" class="image">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>OCEAN BREEZE</h3>
+                                <div class="line"></div>
+                                <p>Sept 5 - Nov 16, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-image standard">
+                        <img src="/images/g6.jpg" alt="g6" class="image">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>SUNSET</h3>
+                                <div class="line"></div>
+                                <p>Sept 15 - Oct 13, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-image standard">
+                        <img src="/images/g7.jpg" alt="g7" class="image">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>ABSTRACT</h3>
+                                <div class="line"></div>
+                                <p>Oct 3 - Oct 21, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-image standard">
+                        <img src="/images/g8.jpg" alt="g8" class="image">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>GREEN</h3>
+                                <div class="line"></div>
+                                <p>Oct 15 - Nov 5, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery-image horizontal">
+                        <img src="/images/g9.jpg" alt="g9" class="image">
+                        <div class="overlay">
+                            <div class="overlay-content">
+                                <h3>OIL ON CANVAS</h3>
+                                <div class="line"></div>
+                                <p> Oct 10 - Oct 21, 2022</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section id = "artists-section">
+            <div class="background artist-bg">
+                <div class="background-overlay artist-overlay">
+                    <div class="heading">
+                        <h2>ARTISTS</h2>
+                        <a href="#hero-section" class="button button-black">
+                            <span>All</span>
+                        </a>
+                    </div>
+                    <div class="artists-gallery">
+                        <div class="mobile thumbnails"></div>
+                        <div class="slides">
+                            <div class="artist">
+                                <p>Vot Boun</p>
+                                <img src="/images/pic1.png" alt="artist1">
+                            </div>
+                            <div class="artist">
+                                <p>John Miller</p>
+                                <img src="/images/pic2.png" alt="artist2">
+                            </div>
+                            <div class="artist">
+                                <p>Sol LeWitt</p>
+                                <img src="/images/pic3.png" alt="artist3">
+                            </div>
+                            <div class="artist">
+                                <p>Kate X</p>
+                                <img src="/images/pic4.png" alt="artist4">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id = "contacts-section">
+                <div class="contacts">
+                    <div class="main-logo-wrapper">
+                        <img src="/images/logo3.svg" alt="logo3">
+                        <h2>MODERN ART</h2>
+                    </div>
+                    <div class="contacts-text">
+                        <p><span>27 Bohdana Khmelnytskoho St., Kyiv, 62200</span></p>
+                        <div class="working-hours">
+                            <div class="column">
+                                <p>Monday - Friday</p>
+                                <p>Saturday</p>
+                            </div>
+                            <div class="column">
+                                <p>10a.m. - 5p.m.</p>
+                                <p>10a.m. - 3p.m.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mobile">
+                        <a href="#hero-section" class="button button-black">
+                            <span>Join mailing list</span>
+                        </a>
+                    </div>
+                    <div class="mail-form">
+                        <p><span>Join our mailing list</span></p>
+                        <form action="/">
+                            <div class="form">
+                                <label for="email-id"></label><input type="text" class="input-field" placeholder="Email*" required id="email-id" name="email">
+                                <input type="submit" class="button button-black" value="Join">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe src="https://my.atlistmaps.com/map/11aa8df3-44b2-4439-8760-aca29e846715?share=true" allow="geolocation" width="100%" height="450px" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                </div>
+        </section>
+        <footer class="footer">
+            <div class="background footer-bg">
+                <div class="background-overlay footer-overlay">
+                    <div class="footer-container">
+                        <div class="logo-wrapper">
+                            <div class="logo-text">
+                                <h2>MODERN</h2>
+                                <h2>ART</h2>
+                            </div>
+                            <img src="/images/logo-2.svg" alt="logo2" class="logo-image">
+                        </div>
+                        <div class="footer_text_section">
+                            <p>the contemporary gallery</p>
+                            <p>27 Bohdana Khmelnytskogo St., Kyiv, 62200</p>
+                            <p>+38 (063) 12 34 567</p>
+                            <p>modernArt@gmail.com</p>
+                            <div class="social-media">
+                                <div class="social-media-icon">
+                                    <a href="#">
+                                        <img src="/images/inst.svg" alt="ig">
+                                    </a>
+                                </div>
+                                <div class="social-media-icon">
+                                    <a href="#">
+                                        <img src="/images/fb.svg" alt="fb">
+                                    </a>
+                                </div>
+                                <div class="social-media-icon">
+                                    <a href="#">
+                                        <img src="/images/twitter.svg" alt="twitter">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

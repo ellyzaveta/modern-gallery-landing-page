@@ -1,0 +1,7 @@
+<svg width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="5" height="50" fill="white"/>
+<rect x="22.4988" y="27.4679" width="31.8182" height="7.02735" transform="rotate(-135 22.4988 27.4679)" fill="white"/>
+<rect x="22.9652" y="19.2511" width="28.7698" height="7.34065" transform="rotate(20 22.9652 19.2511)" fill="white"/>
+<rect x="48.1818" y="3.52332" width="42.5863" height="4.9827" transform="rotate(135 48.1818 3.52332)" fill="white"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M40.4545 50V4.18113L44.6357 0H50V50H40.4545Z" fill="white"/>
+</svg>
